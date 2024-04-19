@@ -2,7 +2,11 @@ var express = require("express");
 var controller = require("../components/user");
 var apiAuth = require("../helper/apiAuthentication");
 
+
+
 var router = express.Router();
+
+
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {
