@@ -18,5 +18,6 @@
   "USER_PROFILE_URL": "/dashboard/userProfile",
   "USER_DELETED_URL": "/userProfile/confirmDelete",
   "USER_PASS_UPDATE_URL": "/dashboard/userProfile/updatePassword",
+  "VIEW_MEMBERS_URL": "/dashboard/viewMembers/",
   "USER_DEFAULT_LOGO_URL": ""
 }
