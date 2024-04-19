@@ -13,14 +13,14 @@ import {
   ListItemButton,
   ListItemIcon,
 } from "@mui/material";
+
 import Iconify from "./Iconify";
 
 const ListItemStyle = (props) => <ListItemButton disableGutters {...props} />;
 
 const ListItemIconStyle = (props) => (
-  <ListItemIcon>{props.icon && props.icon}</ListItemIcon>
+  <ListItemIcon sx={{ marginLeft: 3 }}>{props.icon && props.icon}</ListItemIcon>
 );
-
 const activeRootStyle = {
   color: "primary.main",
   fontWeight: "fontWeightMedium",

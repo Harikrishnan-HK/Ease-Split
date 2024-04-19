@@ -33,9 +33,18 @@ export const WelcomeMessage = () => {
               variant="contained"
               component={RouterLink}
               to={configData.USER_GROUPS_URL}
+              sx={{ mr: 10 }}
             >
               View Groups
             </Button>
+            <Button
+              variant="contained"
+              component={RouterLink}
+              to={configData.USER_GROUPS_URL}
+            >
+              Add Expense
+            </Button>
+
           </Grid>
           <Grid item lg={5} md={6} xs={12}>
             <img src="/static/expensegroup.jpg" alt="dashbaord-img" />
