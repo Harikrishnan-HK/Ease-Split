@@ -1,13 +1,10 @@
 {
   "name": "ease-split",
   "version": "1.0.0",
-  "description": "A mern stack capstone project for easesplit",
-  "main": "server.js",
+  "description": "A mern stack  project for easesplit",
+  "main": "app.js",
   "scripts": {
-    "test": "npx nodemon app.js",
-    "start": "node app.js",
-    "build": "cd client && npm install && npm run start && echo 'Server build completed'"
-  },
+    "start": "nodemon app.js"  },
   "keywords": [
     "easesplit"
   ],
