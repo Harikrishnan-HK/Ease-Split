@@ -8,7 +8,7 @@ export const WelcomeMessage = () => {
       sx={{
         boxShadow: 5,
         p: 5,
-        bgcolor: (theme) => theme.palette["primary"].lighter,
+        backgroundColor: "#E0FFFF",
         color: (theme) => theme.palette["primary"].darker,
         borderRadius: 2,
       }}
