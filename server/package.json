@@ -4,14 +4,13 @@
   "description": "A mern stack capstone project for easesplit",
   "main": "server.js",
   "scripts": {
-    "test": "npx nodemon app.js",
-    "start": "node app.js",
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm start",
-    "build": "npm install && npm run build-client && npm run start"
+    "test": "npx nodemon server/app.js",
+    "start": "node server/app.js",
+    "build": "npm run build-client && npm run build-server",
+    "build-client": "cd client && npm install && npm run build",
+    "build-server": "npm install && echo 'Server build completed'"
   },
-  "keywords": [
+    "keywords": [
     "easesplit"
   ],
   "author": "",
