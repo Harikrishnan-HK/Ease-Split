@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npx nodemon app.js",
     "start": "node app.js",
-    "build": "npm install",
-    "dev": " \"npm start\" "
+    "build": "npm install && npm test && npm run dev",
+    "dev": "cd .. client && npm install && npm start "
   },
   "keywords": [
     "easesplit"
