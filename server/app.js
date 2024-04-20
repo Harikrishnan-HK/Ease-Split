@@ -22,9 +22,13 @@ app.use("/api/users", usersRouter);
 app.use("/api/group", apiAuth.validateToken, groupRouter);
 app.use("/api/expense", apiAuth.validateToken, expenseRouter);
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 app.listen(port, (err) => {
-  console.log(`Server started in PORT | ${port}`)
-  logger.info(`Server started in PORT | ${port}`)
-
+  if (err) {
+    console.error(`Failed to start server: ${err}`);
+    logger.error(`Failed to start server: ${err}`);
+  } else {
+    console.log(`Server started in PORT | ${port}`);
+    logger.info(`Server started in PORT | ${port}`);
+  }
 });
