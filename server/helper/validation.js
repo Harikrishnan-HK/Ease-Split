@@ -40,7 +40,7 @@ exports.passwordValidation = (pass) => {
 
 exports.currencyValidation = (currency) => {
     if (currency &&
-        currency == "INR" ||
+        currency == "CAD" ||
         currency == "USD" ||
         currency == "EUR") {
         return true

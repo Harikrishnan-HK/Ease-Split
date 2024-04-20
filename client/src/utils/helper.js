@@ -7,14 +7,12 @@ export function convertToCurrency(number) {
 
 export function currencyFind(currencyType) {
   switch (currencyType) {
-    case "INR":
-      return "₹";
+    case "CAD":
+      return "$";
     case "USD":
       return "$";
     case "EUR":
       return "€";
-    case "CAD":
-      return "$";
     default:
       return "$";
   }
