@@ -2,13 +2,15 @@
   "name": "ease-split",
   "version": "1.0.0",
   "description": "A mern stack capstone project for easesplit",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "test": "npx nodemon app.js", 
-    "start": "node app.js", 
-    "build": "npm install && npm run start" 
+    "test": "npx nodemon app.js",
+    "start": "node app.js",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm start",
+    "build": "npm install && npm run build-client && npm run start"
   },
-  
   "keywords": [
     "easesplit"
   ],
