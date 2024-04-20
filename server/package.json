@@ -6,8 +6,7 @@
   "scripts": {
     "test": "npx nodemon app.js", 
     "start": "node app.js", 
-    "dev": "cd ../client/ && npm install", 
-    "build": "npm install && npm run dev" 
+    "build": "npm install && npm run start" 
   },
   
   "keywords": [
