@@ -1,12 +1,27 @@
+require('dotenv').config();
 var mongoose = require("mongoose");
 
 //establishing database connection
-mongoose
-  .connect("mongodb://localhost:27017/easesplit")
+// mongoose
+//   .connect("mongodb://localhost:27017/easesplit")
 
-  .catch((err) => {
-    console.log(err);
-  });
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+
+mongoose.connect(
+  process.env.MONGODB_URI,
+  { useNewUrlParser: true, useUnifiedTopology: true,  },
+  (err) => {
+    if (err) {
+      console.error('Error connecting to MongoDB:', err);
+    } else {
+      console.log('Connected to MongoDB');
+    }
+  }
+);
+
 
 //user schema
 const User = new mongoose.Schema({
