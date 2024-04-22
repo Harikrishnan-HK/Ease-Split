@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx nodemon app.js",
     "start": "node app.js",
-    "dev": "wait-on http://localhost:3010 & concurrently \"npm start\" \"cd ../client && npm install && npm start\" "  },
+    "dev": "wait-on http://localhost:3010 & concurrently \"npm test\" \"cd ../client && npm install && npm start\" "  },
 
   "keywords": [
     "easesplit"
