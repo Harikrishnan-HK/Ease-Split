@@ -5,8 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "npx nodemon app.js",
-    "start": "node app.js",
-    "dev": "wait-on http://localhost:3010 & concurrently \"npm test\" \"cd ../client && npm install && npm start\" "
+    "start": "npm install && node app.js",
+    "client": "cd ../client && npm install && npm start",
+    "start-all": "npm run start & npm run client"
   },
   "keywords": [
     "easesplit"
