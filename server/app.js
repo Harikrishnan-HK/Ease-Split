@@ -22,7 +22,7 @@ app.use("/api/users", usersRouter);
 app.use("/api/group", apiAuth.validateToken, groupRouter);
 app.use("/api/expense", apiAuth.validateToken, expenseRouter);
 
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 app.listen(port, (err) => {
   if (err) {
     console.error(`Failed to start server: ${err}`);
