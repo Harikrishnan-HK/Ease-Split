@@ -7,7 +7,7 @@
     "test": "npx nodemon app.js",
     "start": "node app.js",
     "netlify-postbuild": "npm run build",
-    "dev": "concurrently \"npm start\" \"cd ../client && npm install && npm start\" "
+    "dev": "concurrently \"npm test\" \"cd ../client && npm install && npm start\" "
   },
 
   "keywords": [
