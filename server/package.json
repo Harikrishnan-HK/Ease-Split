@@ -4,8 +4,10 @@
   "description": "A mern stack  project for easesplit",
   "main": "app.js",
   "scripts": {
+    "test": "npx nodemon app.js",
     "start": "node app.js",
-    "dev": "nodemon app.js " 
+    "netlify-postbuild": "cd client && npm install && npm run build",
+    "dev": "concurrently \"npm test\" \"cd client && npm start\" "
   },
 
   "keywords": [
