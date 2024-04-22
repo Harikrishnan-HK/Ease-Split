@@ -1,0 +1,124 @@
+2024-04-19T17:51:42.428Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T17:52:43.451Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T17:53:40.141Z | ERROR  | URL : /api/users/v1/view | API Authentication Fail | message: Invalid Token
+2024-04-19T17:53:41.386Z | ERROR  | URL : /api/users/v1/view | API Authentication Fail | message: Invalid Token
+2024-04-19T17:53:44.085Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:53:44.093Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:54:25.172Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:54:25.188Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:54:47.062Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:54:47.145Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:54:47.612Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:54:47.625Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2024-04-19T17:55:51.492Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T17:55:57.620Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T17:58:12.166Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:01:29.694Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:09:31.829Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:19:27.062Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:23:17.171Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:24:58.567Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:39:12.011Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:40:16.985Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:40:38.546Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:40:47.378Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:42:35.980Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:47:30.011Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:47:50.997Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:47:56.605Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:48:19.828Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:48:30.986Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:48:45.407Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:49:29.528Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:49:35.479Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:49:45.607Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:49:56.960Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:51:00.256Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T18:51:08.410Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-19T19:33:13.023Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-20T00:58:23.575Z | ERROR  | URL : /api/expense/v1/user | staus : undefined | message: Operation `expenses.find()` buffering timed out after 10000ms
+2024-04-20T00:58:33.594Z | ERROR  | URL : /api/group/v1/user | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T00:58:33.746Z | ERROR  | URL : /api/users/v1/emailList | staus : undefined | message: Operation `users.find()` buffering timed out after 10000ms
+2024-04-20T00:58:35.195Z | ERROR  | URL : /api/group/v1/user | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T00:58:36.177Z | ERROR  | URL : /api/expense/v1/user | staus : undefined | message: Operation `expenses.find()` buffering timed out after 10000ms
+2024-04-20T00:58:46.187Z | ERROR  | URL : /api/group/v1/user | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T00:59:08.323Z | ERROR  | URL : /api/expense/v1/user | staus : undefined | message: Operation `expenses.find()` buffering timed out after 10000ms
+2024-04-20T00:59:35.553Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/hari/Desktop/Ease-Split/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+2024-04-20T01:01:41.231Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:05:27.159Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/hari/Desktop/Ease-Split/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+2024-04-20T01:09:29.631Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:16:19.536Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:16:29.971Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:17:17.533Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:17:25.629Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:18:37.048Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:18:47.654Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:20:06.674Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/hari/Desktop/Ease-Split/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+2024-04-20T01:22:06.106Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/hari/Desktop/Ease-Split/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+2024-04-20T01:22:19.811Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:30:40.837Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/hari/Desktop/Ease-Split/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+2024-04-20T01:30:54.686Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:43:00.764Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/hari/Desktop/Ease-Split/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+2024-04-20T01:47:31.964Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2024-04-20T01:57:20.806Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-04-20T01:59:18.903Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: apiAuth.validateUser is not a function
+2024-04-20T01:59:42.247Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-04-20T02:00:19.309Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-04-20T02:01:25.382Z | ERROR  | URL : /api/group/v1/add | staus : 400 | message: Currency validation fail!! Error: Currency validation fail!!
+    at Object.exports.currencyValidation (/Users/hari/Desktop/Ease-Split/server/helper/validation.js:48:19)
+    at exports.createGroup (/Users/hari/Desktop/Ease-Split/server/components/group.js:21:23)
+    at Layer.handle [as handle_request] (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:175:3)
+2024-04-20T02:09:49.955Z | ERROR  | URL : /api/group/v1/add | staus : 400 | message: Currency validation fail!! Error: Currency validation fail!!
+    at Object.exports.currencyValidation (/Users/hari/Desktop/Ease-Split/server/helper/validation.js:48:19)
+    at exports.createGroup (/Users/hari/Desktop/Ease-Split/server/components/group.js:21:23)
+    at Layer.handle [as handle_request] (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:175:3)
+2024-04-20T02:09:51.574Z | ERROR  | URL : /api/group/v1/add | staus : 400 | message: Currency validation fail!! Error: Currency validation fail!!
+    at Object.exports.currencyValidation (/Users/hari/Desktop/Ease-Split/server/helper/validation.js:48:19)
+    at exports.createGroup (/Users/hari/Desktop/Ease-Split/server/components/group.js:21:23)
+    at Layer.handle [as handle_request] (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hari/Desktop/Ease-Split/server/node_modules/express/lib/router/index.js:175:3)
+2024-04-20T02:10:48.592Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-04-20T02:25:22.077Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-04-20T02:25:57.396Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-04-20T02:28:41.850Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-04-20T02:35:57.123Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-04-20T02:39:38.799Z | ERROR  | URL : /api/group/v1/settlement | staus : undefined | message: Maximum call stack size exceeded
+2024-04-20T02:39:43.898Z | ERROR  | URL : /api/group/v1/settlement | staus : undefined | message: Maximum call stack size exceeded
