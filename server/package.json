@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npx nodemon app.js",
     "start": "node app.js",
-    "dev": "wait-on http://localhost:3010 & concurrently \"npm test\" \"cd ../client && npm install && npm start\" "  },
-
+    "dev": "wait-on http://localhost:3010 & concurrently \"npm test\" \"cd ../client && npm install\" "
+  },
   "keywords": [
     "easesplit"
   ],
@@ -30,6 +30,7 @@
     "winston": "^3.7.2"
   },
   "devDependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "wait-on": "^7.2.0"
   }
 }
