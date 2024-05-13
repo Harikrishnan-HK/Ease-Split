@@ -1,0 +1,19 @@
+{
+    "rules": {
+      "no-unused-vars": "off"
+    },
+    "overrides": [
+      {
+        "files": ["client/**/*.js"],
+        "rules": {
+          "no-unused-vars": "off"
+        }
+      },
+      {
+        "files": ["server/**/*.js"],
+        "rules": {
+          "no-unused-vars": "off"
+        }
+      }
+    ]
+  }
