@@ -3,7 +3,7 @@ name: MERN Stack Deployment
 on:
   push:
     branches:
-      - main  # Change this to the branch you want to deploy from
+      - main
 
 jobs:
   build:
@@ -13,15 +13,27 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
       - name: Install Dependencies and Build Client
         run: |
           cd client
           npm install
           npm run build
 
-      - name: Install Dependencies and Start Server
+      - name: Install Dependencies for Server
         run: |
           cd ../server
           npm install
+
+      - name: Start Server
+        run: |
+          cd ../server
           npm start
 
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  PORT: ${{ secrets.PORT }}
